@@ -6,12 +6,16 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
+/**
+ * 
+ * @author екрв
+ *
+ */
 public class HelloController implements Controller{
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, 
 			HttpServletResponse response) throws Exception {
-		
 		
 		return null;
 	}
